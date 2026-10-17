@@ -1,0 +1,72 @@
+# ==============================================================================
+# Data Science & Pandas Specific
+# ==============================================================================
+# Data directories (Never commit raw, external, or large data files)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+data/
+inputs/
+outputs/
+
+# Figures and exported plots
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+figures/
+plots/
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+# Notebook checkpoints and cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Optional: Ignore notebook outputs if you want clean diffs
+# (Uncomment the line below if you only want to commit code, not output data)
+# *.nbconvert.html
+
+# ==============================================================================
+# VS Code Specific
+# ==============================================================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# ==============================================================================
+# Python Environment & Caching
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry / Pipenv / Packaging
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
