@@ -9,7 +9,7 @@ import numpy as np
 def two():
     """
     Plots x vs y1 (C-14) as a dashed red line and x vs y2 (Ra-226)
-    as a solid green line with specified axes limits, labels, title, and legend.
+    as a green line with specified axes limits, labels, title, and legend.
     """
     x = np.arange(0, 21000, 1000)
     r = np.log(0.5)
